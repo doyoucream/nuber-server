@@ -39,6 +39,8 @@ Server for the (N)Uber Clone Course on Nomad Academy. GraphQL, Typescript, NodeJ
 - [ ] Get Ride History
 - [ ] See Ride Detail
 
+---
+
 - [x] yarn add typescript ts-node nodemon --dev
 - [x] yarn add tslint-config-prettier --dev
 - [x] yarn add @types/node --dev
