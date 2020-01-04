@@ -6,7 +6,7 @@ import app from "./app";
 import ConnectionOptions from "./ormConfig";
 
 const PORT: number | string = process.env.PORT || 4000;
-const PLAYGROUND_ENDPOINT: string = "./playground";
+const PLAYGROUND_ENDPOINT: string = "/playground";
 const GRAPHQL_ENDPOINT: string = "/graphql";
 
 const appOptions: Options = {
