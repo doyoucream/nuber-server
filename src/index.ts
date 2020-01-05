@@ -1,8 +1,8 @@
 import dotenv from "dotenv";
 dotenv.config();
+import app from "./app";
 import { Options } from "graphql-yoga";
 import { createConnection } from "typeorm";
-import app from "./app";
 import ConnectionOptions from "./ormConfig";
 
 const PORT: number | string = process.env.PORT || 4000;
