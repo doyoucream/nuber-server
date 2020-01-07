@@ -23,8 +23,9 @@ Server for the (N)Uber Clone Course on Nomad Academy. GraphQL, Typescript, NodeJ
 
 ### Private Resolvers:
 
-- [ ] Verify Email
-- [ ] Get my Profile
+- [x] Get my Profile
+- [ ] Request Email Verification
+- [ ] Complete Email Verification
 - [ ] Update my Profile
 - [ ] Toggle Driving Mode
 - [ ] Report Location / Orientation
@@ -67,3 +68,5 @@ Server for the (N)Uber Clone Course on Nomad Academy. GraphQL, Typescript, NodeJ
 - [x] yarn add @types/twilio --dev
 - [x] yarn add jsonwebtoken
 - [x] yarn add @types/jsonwebtoken --dev
+- [x] yarn add mailgun-js
+- [x] yarn add @types/mailgun-js --dev
